@@ -28,5 +28,9 @@ import { ProductService }         from '../_services/product.service';
       const link = ['/product', product.id];
       this.router.navigate(link);
     }
+
+    addToCart(product: Product):void{
+      throw new Error("not implemented");
+    }
     
   }
