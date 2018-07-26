@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'http://10.3.77.15:9002/'
+  baseUrl: 'http://localhost:9002/'
 };
